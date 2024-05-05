@@ -1,0 +1,144 @@
+* {
+    padding: 0; /* Resetiranje paddinga */
+    margin: 0; /* Resetiranje margina */
+    box-sizing: border-box; /* Postavljanje box-sizing na border-box */
+}
+hr {
+    margin-top: 15px; /* Postavljanje margine na vrhu horizontalne crte */
+    margin-bottom: 15px; /* Postavljanje margine na dnu horizontalne crte */
+}
+body {
+    font-family: Arial; /* Postavljanje fonta na Arial */
+    padding-top: 60px; /* Prilagođavanje paddinga tijela dokumenta za fiksnu navigacijsku traku */
+    padding-bottom: 60px; /* Dodavanje paddinga na dnu ekvivalentno visini navigacijske trake */
+}
+.container {
+    max-width: 1500px; /* Postavljanje maksimalne širine kontejnera */
+    padding: 15px; /* Postavljanje paddinga kontejnera */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); /* Dodavanje sjenčanja kontejneru */
+    min-height: 100vh; /* Postavljanje minimalne visine kontejnera na visinu preglednika */
+    position: relative; /* Postavljanje relativnog položaja */
+    z-index: 1; /* Postavljanje z-indeksa */
+    margin: 0 auto; /* Postavljanje margine na auto za centriranje */
+}
+ul li {
+    display: inline-block; /* Postavljanje stavki neuredjene liste kao inline-blok elemenata */
+    margin-right: 15px; /* Postavljanje margine s desne strane stavke neuredjene liste */
+}
+.header {
+    font-size: 24px; /* Postavljanje veličine fonta za zaglavlje */
+}
+.footer {
+    position: fixed;
+    left: 50%; /* Postavljanje fiksnog položaja na 50% širine ekrana */
+    transform: translateX(-50%); /* Pomicanje natrag za polovicu širine footera kako bi bio centriran */
+    bottom: 0;
+    width: 100%; /* 100% širine minus dva puta padding od 15px */
+    background-color: rgba(0, 0, 0, 0.5); /* Postavljanje polu-transparentne boje pozadine */
+    text-align: center;
+    padding: 1px; /* Postavljanje paddinga na 15px na sve strane */
+    height: 55px; /* Postavljanje visine boje od dna prema gore */
+    color: white;
+}
+form {
+    margin: 0 auto; /* Postavljanje margine na auto za centriranje forme */
+    margin-top: 15px; /* Postavljanje margine na vrhu forme */
+}
+form input {
+    display: block; /* Postavljanje ulaza u formi kao blok elemenata */
+    margin-top: 15px; /* Postavljanje margine na vrhu unosa u formi */
+    height: 30px; /* Postavljanje visine unosa u formi */
+    padding-left: 10px; /* Dodavanje unutarnjeg prostora s lijeve strane unosa u formi */
+    width: 300px; /* Postavljanje širine unosa u formi */
+}
+form textarea {
+    padding: 10px; /* Dodavanje unutarnjeg prostora oko teksta u polju za unos */
+}
+.container1 {
+    background-color: rgb(167, 167, 167); /* Postavljanje pozadinske boje dodatnog kontejnera */
+    padding: 15px; /* Postavljanje paddinga dodatnog kontejnera */
+    text-align: center; /* Centriranje sadržaja u dodatnom kontejneru */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); /* Dodavanje sjenčanja dodatnom kontejneru */
+    min-height: 250px; /* Postavljanje minimalne visine dodatnog kontejnera */
+    min-width: 250px; /* Postavljanje minimalne širine dodatnog kontejnera */
+    max-width: 300px; /* Postavljanje maksimalne širine dodatnog kontejnera */
+    max-height: 300px; /* Postavljanje maksimalne visine dodatnog kontejnera */
+    display: inline-block; /* Postavljanje dodatnog kontejnera kao inline-blok elementa */
+    margin: 10px; /* Postavljanje margine oko dodatnog kontejnera */
+}
+.pic {
+    width: 250px; /* Postavljanje širine slike */
+    height: 250px; /* Postavljanje visine slike */
+}
+a {
+    font-size: 20px; /* Postavljanje veličine fonta za opće poveznice */
+    color: white; /* Postavljanje boje teksta općih poveznica */
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5); /* Postavljanje poluprovidne boje pozadine navigacijske trake */
+    position: fixed; /* Postavljanje fiksne pozicije za navigacijsku traku */
+    width: 100%; /* Postavljanje širine navigacijske trake */
+    z-index: 2; /* Postavljanje z-indeksa navigacijske trake */
+    top: 0; /* Postavljanje pozicije navigacijske trake na vrh stranice */
+    left: 0; /* Postavljanje pozicije navigacijske trake na lijevu stranicu */
+    text-align: center; /* Centriranje teksta u navigacijskoj traci */
+}
+.navbar ul {
+    list-style-type: none; /* Uklanjanje oznaka stavki iz navigacijske liste */
+    padding: 0; /* Uklanjanje paddinga iz navigacijske liste */
+    margin: 0 auto; /* Postavljanje margine na auto za centriranje navigacijske liste */
+    display: inline-block; /* Postavljanje navigacijske liste kao inline-blok elementa */
+}
+.navbar li {
+    display: inline-block; /* Postavljanje stavki navigacijske liste kao inline-blok elemenata */
+    margin-right: 35px; /* Postavljanje margine s desne strane stavki navigacijske liste */
+}
+.navbar li:last-child {
+    margin-right: 0; /* Uklanjanje margine s desne strane zadnje stavke navigacijske liste */
+}
+.navbar li a {
+    font-size: 18px; /* Postavljanje veličine fonta za poveznice u navigacijskoj traci */
+    color: white; /* Postavljanje boje teksta poveznica u navigacijskoj traci */
+    text-decoration: none; /* Uklanjanje podvlake ispod poveznica u navigacijskoj traci */
+}
+.navbar img {
+    vertical-align: middle; /* Postavljanje vertikalnog poravnanja slike */
+    width: 40px; /* Postavljanje širine slike */
+    height: 40px; /* Postavljanje visine slike */
+    padding: 5px; /* Dodavanje unutarnjeg prostora oko slike */
+}
+.slider {
+    position: relative; /* Postavljanje relativnog položaja za slider */
+    width: 80%; /* Postavljanje širine slidera */
+    margin: 0 auto; /* Postavljanje margine na auto za centriranje slidera */
+}
+.prev, .next {
+    position: absolute; /* Postavljanje apsolutnog položaja za prethodni i sljedeći gumb */
+    top: 50%; /* Postavljanje položaja gumba na sredinu vertikalno */
+    transform: translateY(-50%); /* Pomak gumba prema gore za 50% svoje visine */
+    background-color: #000; /* Postavljanje pozadinske boje gumba */
+    color: #fff; /* Postavljanje boje teksta gumba */
+    border: none; /* Uklanjanje ruba gumba */
+    cursor: pointer; /* Postavljanje kursora na pokazivač */
+    padding: 20px; /* Postavljanje paddinga gumba */
+}
+.prev {
+    left: 0; /* Postavljanje položaja prethodnog gumba na lijevo */
+}
+.next {
+    right: 0; /* Postavljanje položaja sljedećeg gumba na desno */
+}
+img {
+    display: block; /* Postavljanje slike kao blok elementa */
+    width: 100%; /* Postavljanje širine slike na 100% */
+    height: auto; /* Automatsko prilagođavanje visine slike */
+}
+.star {
+    display: inline;
+    width: 17px; /* Postavljanje širine slike */
+    height: 17px; /* Postavljanje visine slike */
+}
+.pic1 {
+    width: 128px;/* Postavljanje širine slike */
+    height: 128px;/* Postavljanje visine slike */
+}
