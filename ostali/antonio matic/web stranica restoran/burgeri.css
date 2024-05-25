@@ -1,0 +1,108 @@
+body{
+	background-color:#0b161a;
+	overflow-x: hidden; 		
+}
+.navbar{
+	background:#0b161a;
+	font-family:calibri;
+	padding-right:15px;
+    padding-left:15px;
+    border:3px solid black;
+}
+.navbar a{
+	color:orange;
+    text-decoration: none;
+}
+.navbar a:hover{
+	color:black;
+}
+.navdiv{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+.logo{
+	font-size:35px;
+	font-weight:600;
+	color: #ffc000;
+	font-family:open;
+}	
+.aloo{
+	list-style:none;
+	display:inline-block;
+	color: #ffc000;
+	font-size:18px;
+	font-weight:bold;
+	margin-right:25px;
+    margin-top:-30px;
+}
+.tipke{
+	background-color:#0b161a;
+	margin-left:10px;
+	border-radius:10px;
+	padding:1px;
+	width:90px;
+	font-weight:bold;
+	font-size:15px;
+	cursor:pointer;
+	color:#ffc000;
+}
+.container{
+	border:none;
+	outline:none;
+	height:450px;
+	width:1000px;
+	background:orange;
+	border-radius:400px;
+	margin-top:70px;
+	margin-left:1400px;
+}
+.slika{
+	height:400px;
+	width:400px;
+	margin-left:1425px;
+	position: absolute;
+	margin-top:-425px;
+    border-radius: 400px;
+}
+.container2{
+	border:none;
+	outline:none;
+	height:45px;
+	width:210px;
+	background:orange;
+	border-radius:10px;
+	margin-top:-448px;
+	margin-left:390px;
+}
+.naslov{
+	position: absolute;
+	margin-top:-42px;
+	margin-left:415px;
+	font-family: open;
+	font-size: 35px;
+}
+.naslov2{
+	color:#D3D3D3;
+	margin-left: 390px;
+	font-size: 25px;
+}
+.naslov3{
+	margin-left: 560px;
+	position: absolute;
+	color:#D3D3D3;
+	margin-top: -50px;
+	font-size: 25px;
+}
+.naslov4{
+	color:#D3D3D3;
+	margin-left: 390px;
+	font-size: 25px;
+}
+.naslov5{
+	margin-left: 560px;
+	position: absolute;
+	color:#D3D3D3;
+	margin-top: -50px;
+	font-size: 25px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restoran</title>
+    <link rel="stylesheet" href="signup-login.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    </style>
+</head>
+<body>
+   <a href="Pocetnastranica.html"><h1 class="vrati">VRATI SE NAZAD</h1></a>
+    <div class="wrapper">
+        <h1 class="h1">SING UP</h1>
+        <form action="Pocetnastranica.html" method="POST">
+            <input type="text" placeholder="Ime"  required>
+            <input type="text" placeholder="Prezime" required>
+            <input type="text" placeholder="Broj"required oninput="this.value = this.value.replace(/[^0-9]/g, '');">
+            <input type="text" placeholder="Broj kartice"required oninput="this.value = this.value.replace(/[^0-9]/g, '');">
+            <input type="password" placeholder="Šifra"required >
+            <input type="password" placeholder="Potvrdi šifru"  required>
+            <input type="checkbox" id="checkbox" class="box" required>
+            <label for="checkbox" class="box2">Prihvaćam uvjete upotrebe</label>
+            <button type="submit" class="button">SIGN UP</button>
+        </form>
+        <div class="member">
+            Imaš račun? <a href="login.html">Login</a>
+        </div>
+    </div>
+</body>
+</html>

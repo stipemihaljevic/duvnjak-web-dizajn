@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: #181733;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.video {
+    margin-top: 800px;
+}
+.login {
+    margin: 0;
+    padding: 5px;
+    text-align: right;
+    position: absolute;
+    top: 4.5%;
+    left: 95%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    font-size: 20px;
+    background: red;
+    font-weight: bold;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.background {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;   
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 70%, #181733 ), url('pozadina.jpg');
+    background-position: center;
+    z-index: 0;
+}
+.ime {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;   
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 70%, #181733), url('pozadina.jpg');
+    background-position: center;
+    z-index: 0;
+}
+.ime::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    background-color: #181733;
+    padding: 0 1.6rem .1rem;
+    z-index: -1;
+}
+.container {
+    max-width: 1750px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 130px;
+}
+nav {
+    background-color: #002549;
+    padding: 20px 0;
+}
+.barca {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0 50px;
+}
+.menu {
+    list-style-type: none;
+}
+.menu li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.menu li:first-child {
+    margin-left: 0;
+}
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+.menu li a:hover {
+    color: #a50044;
+}
+.grb {
+    position: fixed;
+    top: 0;
+    left: 3px;
+    max-width: 100%;
+    height: auto;
+    width: 65px;
+    height: 65px;
+}
+.card, .card2, .card3 {
+    border: 2px solid #000000;
+}
+.card {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    top: 500px;
+    left: 270px;
+}
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+.card-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card:hover img {
+    transform: scale(1.1);
+}
+.card:hover .card-content {
+    transform: translateY(0);
+}
+.card2 {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    top: 500px;
+    left: 550px;
+}
+.card2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+.card-content2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+.card2:hover {
+    transform: scale(1.05);
+}
+.card2:hover img {
+    transform: scale(1.1);
+}
+.card2:hover .card-content2 {
+    transform: translateY(0);
+}
+.card3 {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    top: 500px;
+    left: 830px;
+}
+.card3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+.card-content3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+.card3:hover {
+    transform: scale(1.05);
+}
+.card3:hover img {
+    transform: scale(1.1);
+}
+.card3:hover .card-content3 {
+    transform: translateY(0);
+}
+.page-title {
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    color: rgb(54, 54, 54);
+}
+.container1 {
+    max-width: 1325px;
+    padding: 15px;
+    background-color: rgb(255, 255, 255, 0.7);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    min-height: 100vh;
+    position: relative;
+    z-index: 3;
+    margin: 0 auto;
+}
+.news-link {
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+    font-size: 30px;
+    font-weight: bold;
+}
+.container2 {
+    background-color: rgb(255, 235, 235);
+    padding: 15px;  
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    min-height: 250px;
+    min-width: 250px;
+    max-width: 300px;
+    max-height: 300px;
+    display: inline-block;
+    margin: 10px;
+}
+.pic {
+    width: 250px;
+    height: 250px;
+}
+.footer-text {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding: 1px;
+    height: 50px;
+    color: white;
+    font-size: 16px;
+    background: linear-gradient(90deg, rgba(85,29,253,1) 28%, rgba(252,69,69,1) 67%);
+    z-index: 10;
+}
+.gradient {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(90deg, rgba(85,29,253,1) 28%, rgba(252,69,69,1) 67%);
+    z-index: 9;
+}
+a {
+    color: black;
+}

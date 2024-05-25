@@ -1,0 +1,668 @@
+<DOCTYPE!>
+<html>
+<head>
+<title>Restoran</title>
+<link rel="stylesheet" href="narudžba.css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navdiv">
+        <div class="logo">Narudžba</div>
+        <ul>
+        <li class="aloo"><a href="Pocetnastranica.html">POČETNA STRANICA</li></a>
+        <li class="aloo"><a href="Meni.html">MENI</li></a>
+        <li class="aloo"><a href="Narudžba.html">NARUDŽBA</li></a>
+        <li class="aloo"><a href="Rezervacija.html">REZERVACIJA</li></a>
+        <a href="signup.html"><button class="tipke">SING UP</button></a>
+        <a href="login.html"><button class="tipke">LOGIN</button></a>
+        </ul>
+        </div>
+        </nav>
+        <div class="wrapper">
+            <h1 class="h1">NARUČI</h1>
+            <form action="Narudžbauspjesna.html" method="POST">
+                <input type="text" placeholder="Ime" required>
+                <input type="text" placeholder="Prezime" required>
+                <input type="text" placeholder="Adresa" required>
+                <input type="text" placeholder="Broj kartice" required oninput="this.value = this.value.replace(/[^0-9]/g, '');">
+                <a href="Narudžbauspjesna.html"><button class="button">NARUČI</button></a>
+            </form>
+        </div>
+        <h1 class="naslov">GLAVNA JELA:</h1>
+        <div class="image-container">
+        <img src="slika8.jpeg" class="slika">
+        </div>
+        <p class="paragraf">5€</p>
+
+        <div class="image-container2">
+            <img src="slika9.jpg" class="slika">
+            </div>
+            <p class="paragraf2">7€</p>
+
+
+        <div class="wrapper2">
+                <span class="minus1">-</span>
+                <span class="broj1">00</span>
+                <span class="plus1">+</span>
+            </div>
+
+
+            <script>
+            
+            const plus1=document.querySelector(".plus1"),
+             minus1=document.querySelector(".minus1"),
+             broj1=document.querySelector(".broj1");
+        
+            let a1 = 0;
+        
+            plus1.addEventListener("click",()=>{
+            a1++;
+            a1 = (a1 < 10) ? "0" + a1 : a1;
+            broj1.innerText = a1;
+            console.log(a1);
+            });
+        
+            minus1.addEventListener("click",()=>{
+            if(a1 > 0){
+            a1--;  
+            a1= (a1 < 10) ? "0" + a1 : a1;
+            broj1.innerText = a1; 
+            }
+            });         
+</script>
+   <div class="wrapper3">
+    <span class="minus2">-</span>
+    <span class="broj2">00</span>
+    <span class="plus2">+</span>
+</div>
+<script>
+            
+    const plus2=document.querySelector(".plus2"),
+     minus2=document.querySelector(".minus2"),
+     broj2=document.querySelector(".broj2");
+
+    let a2 = 0;
+
+    plus2.addEventListener("click",()=>{
+    a2++;
+    a2 = (a2 < 10) ? "0" + a2 : a2;
+    broj2.innerText = a2;
+    console.log(a2);
+    });
+
+    minus2.addEventListener("click",()=>{
+    if(a2 > 0){
+    a2--;  
+    a2 = (a2 < 10) ? "0" + a2 : a2;
+    broj2.innerText = a2; 
+    }
+    });          
+</script>
+
+<div class="image-container3">
+    <img src="slika10.jpg" class="slika">
+    </div>
+    <p class="paragraf3">8€</p>
+
+    <div class="wrapper4">
+        <span class="minus3">-</span>
+        <span class="broj3">00</span>
+        <span class="plus3">+</span>
+    </div>
+
+    <script>
+            
+        const plus3=document.querySelector(".plus3"),
+         minus3=document.querySelector(".minus3"),
+         broj3=document.querySelector(".broj3");
+    
+        let a3 = 0;
+    
+        plus3.addEventListener("click",()=>{
+        a3++;
+        a3 = (a3 < 10) ? "0" + a3 : a3;
+        broj3.innerText = a3;
+        console.log(a3);
+        });
+    
+        minus3.addEventListener("click",()=>{
+        if(a3 > 0){
+        a3--;  
+        a3 = (a3 < 10) ? "0" + a3 : a3;
+        broj3.innerText = a3; 
+        }
+        });          
+    </script>
+    
+    <div class="image-container4">
+        <img src="slika11.jpeg" class="slika">
+        </div>
+        <p class="paragraf4">4€</p>
+
+        <div class="wrapper5">
+            <span class="minus4">-</span>
+            <span class="broj4">00</span>
+            <span class="plus4">+</span>
+        </div>
+
+        <script>
+            
+            const plus4=document.querySelector(".plus4"),
+             minus4=document.querySelector(".minus4"),
+             broj4=document.querySelector(".broj4");
+        
+            let a4 = 0;
+        
+            plus4.addEventListener("click",()=>{
+            a4++;
+            a4 = (a4 < 10) ? "0" + a4 : a4;
+            broj4.innerText = a4;
+            console.log(a4);
+            });
+        
+            minus4.addEventListener("click",()=>{
+            if(a4 > 0){
+            a4--;  
+            a4 = (a4 < 10) ? "0" + a4 : a4;
+            broj4.innerText = a4; 
+            }
+            });          
+        </script>
+
+<div class="image-container5">
+    <img src="slika12.jpg" class="slika">
+    </div>
+    <p class="paragraf5">3€</p>
+
+    <div class="wrapper6">
+        <span class="minus5">-</span>
+        <span class="broj5">00</span>
+        <span class="plus5">+</span>
+    </div>
+
+    <script>
+            
+        const plus5=document.querySelector(".plus5"),
+         minus5=document.querySelector(".minus5"),
+         broj5=document.querySelector(".broj5");
+    
+        let a5 = 0;
+    
+        plus5.addEventListener("click",()=>{
+        a5++;
+        a5 = (a5 < 10) ? "0" + a5 : a5;
+        broj5.innerText = a5;
+        console.log(a5);
+        });
+    
+        minus5.addEventListener("click",()=>{
+        if(a5 > 0){
+        a5--;  
+        a5 = (a5 < 10) ? "0" + a5 : a5;
+        broj5.innerText = a5; 
+        }
+        });          
+    </script>
+
+    <div class="image-container6">
+        <img src="slika13.jpg" class="slika">
+        </div>
+        <p class="paragraf6">5€</p>
+
+        <div class="wrapper7">
+            <span class="minus6">-</span>
+            <span class="broj6">00</span>
+            <span class="plus6">+</span>
+        </div>
+
+        <script>
+            
+            const plus6=document.querySelector(".plus6"),
+             minus6=document.querySelector(".minus6"),
+             broj6=document.querySelector(".broj6");
+        
+            let a6 = 0;
+        
+            plus6.addEventListener("click",()=>{
+            a6++;
+            a6 = (a6 < 10) ? "0" + a6 : a6;
+            broj6.innerText = a6;
+            console.log(a6);
+            });
+        
+            minus6.addEventListener("click",()=>{
+            if(a6 > 0){
+            a6--;  
+            a6 = (a6 < 10) ? "0" + a6 : a6;
+            broj6.innerText = a6; 
+            }
+            });          
+        </script>
+        <h1 class="naslov2">PREDJELA:</h1>
+
+        <div class="image-container7">
+            <img src="slika14.jpg" class="slika">
+            </div>
+            <p class="paragraf7">3€</p>
+
+            <div class="wrapper8">
+                <span class="minus7">-</span>
+                <span class="broj7">00</span>
+                <span class="plus7">+</span>
+            </div>
+
+            <script>
+            
+                const plus7=document.querySelector(".plus7"),
+                 minus7=document.querySelector(".minus7"),
+                 broj7=document.querySelector(".broj7");
+            
+                let a7 = 0;
+            
+                plus7.addEventListener("click",()=>{
+                a7++;
+                a7 = (a7 < 10) ? "0" + a7 : a7;
+                broj7.innerText = a7;
+                console.log(a7);
+                });
+            
+                minus7.addEventListener("click",()=>{
+                if(a7 > 0){
+                a7--;  
+                a7 = (a7 < 10) ? "0" + a7 : a7;
+                broj7.innerText = a7; 
+                }
+                });          
+            </script>
+              <div class="image-container8">
+                <img src="slika15.jpg" class="slika">
+                </div>
+                <p class="paragraf8">4€</p>
+                <div class="wrapper9">
+                    <span class="minus8">-</span>
+                    <span class="broj8">00</span>
+                    <span class="plus8">+</span>
+                </div>
+                <script>
+            
+                    const plus8=document.querySelector(".plus8"),
+                     minus8=document.querySelector(".minus8"),
+                     broj8=document.querySelector(".broj8");
+                
+                    let a8 = 0;
+                
+                    plus8.addEventListener("click",()=>{
+                    a8++;
+                    a8 = (a8 < 10) ? "0" + a8 : a8;
+                    broj8.innerText = a8;
+                    console.log(a8);
+                    });
+                
+                    minus8.addEventListener("click",()=>{
+                    if(a8 > 0){
+                    a8--;  
+                    a8 = (a8 < 10) ? "0" + a8 : a8;
+                    broj8.innerText = a8; 
+                    }
+                    });          
+                </script>
+
+<div class="image-container9">
+    <img src="slika16.jpg" class="slika">
+    </div>
+    <p class="paragraf9">3€</p>
+    <div class="wrapper10">
+        <span class="minus9">-</span>
+        <span class="broj9">00</span>
+        <span class="plus9">+</span>
+    </div>
+    <script>
+
+        const plus9=document.querySelector(".plus9"),
+         minus9=document.querySelector(".minus9"),
+         broj9=document.querySelector(".broj9");
+    
+        let a9 = 0;
+    
+        plus9.addEventListener("click",()=>{
+        a9++;
+        a9 = (a9 < 10) ? "0" + a9 : a9;
+        broj9.innerText = a9;
+        console.log(a9);
+        });
+    
+        minus9.addEventListener("click",()=>{
+        if(a9 > 0){
+        a9--;  
+        a9 = (a9 < 10) ? "0" + a9 : a9;
+        broj9.innerText = a9; 
+        }
+        });          
+    </script>
+
+<div class="image-container10">
+    <img src="slika17.jpg" class="slika">
+    </div>
+    <p class="paragraf10">2€</p>
+    <div class="wrapper11">
+        <span class="minus10">-</span>
+        <span class="broj10">00</span>
+        <span class="plus10">+</span>
+    </div>
+    <script>
+
+        const plus10=document.querySelector(".plus10"),
+         minus10=document.querySelector(".minus10"),
+         broj10=document.querySelector(".broj10");
+    
+        let a10 = 0;
+    
+        plus10.addEventListener("click",()=>{
+        a10++;
+        a10 = (a10 < 10) ? "0" + a10 : a10;
+        broj10.innerText = a10;
+        console.log(a10);
+        });
+    
+        minus10.addEventListener("click",()=>{
+        if(a10 > 0){
+        a10--;  
+        a10 = (a10 < 10) ? "0" + a10 : a10;
+        broj10.innerText = a10; 
+        }
+        });          
+    </script>
+      <h1 class="naslov3">DESERTI:</h1>
+      <div class="image-container11">
+        <img src="slika18.jpg" class="slika">
+        </div>
+        <p class="paragraf11">2€</p>
+        <div class="wrapper12">
+            <span class="minus11">-</span>
+            <span class="broj11">00</span>
+            <span class="plus11">+</span>
+        </div>
+        <script>
+    
+            const plus11=document.querySelector(".plus11"),
+             minus11=document.querySelector(".minus11"),
+             broj11=document.querySelector(".broj11");
+        
+            let a11 = 0;
+        
+            plus11.addEventListener("click",()=>{
+            a11++;
+            a11 = (a11 < 10) ? "0" + a11 : a11;
+            broj11.innerText = a11;
+            console.log(a11);
+            });
+        
+            minus11.addEventListener("click",()=>{
+            if(a11 > 0){
+            a11--;  
+            a11 = (a11 < 10) ? "0" + a11 : a11;
+            broj11.innerText = a11; 
+            }
+            });          
+        </script>
+             <div class="image-container12">
+                <img src="slika19.jpg" class="slika">
+                </div>
+                <p class="paragraf12">3€</p>
+                <div class="wrapper13">
+                    <span class="minus12">-</span>
+                    <span class="broj12">00</span>
+                    <span class="plus12">+</span>
+                </div>
+                <script>
+            
+                    const plus12=document.querySelector(".plus12"),
+                     minus12=document.querySelector(".minus12"),
+                     broj12=document.querySelector(".broj12");
+                
+                    let a12 = 0;
+                
+                    plus12.addEventListener("click",()=>{
+                    a12++;
+                    a12 = (a12 < 10) ? "0" + a12 : a12;
+                    broj12.innerText = a12;
+                    console.log(a12);
+                    });
+                
+                    minus12.addEventListener("click",()=>{
+                    if(a12 > 0){
+                    a12--;  
+                    a12 = (a12 < 10) ? "0" + a12 : a12;
+                    broj12.innerText = a12; 
+                    }
+                    });          
+                </script>
+                    <div class="image-container13">
+                        <img src="slika20.jpg" class="slika">
+                        </div>
+                        <p class="paragraf13">1€</p>
+                        <div class="wrapper14">
+                            <span class="minus13">-</span>
+                            <span class="broj13">00</span>
+                            <span class="plus13">+</span>
+                        </div>
+                        <script>
+                    
+                            const plus13=document.querySelector(".plus13"),
+                             minus13=document.querySelector(".minus13"),
+                             broj13=document.querySelector(".broj13");
+                        
+                            let a13 = 0;
+                        
+                            plus13.addEventListener("click",()=>{
+                            a13++;
+                            a13 = (a13 < 10) ? "0" + a13 : a13;
+                            broj13.innerText = a13;
+                            console.log(a13);
+                            });
+                        
+                            minus13.addEventListener("click",()=>{
+                            if(a13 > 0){
+                            a13--;  
+                            a13 = (a13 < 10) ? "0" + a13 : a13;
+                            broj13.innerText = a13; 
+                            }
+                            });          
+                        </script>
+                            <div class="image-container14">
+                                <img src="slika21.jpg" class="slika">
+                                </div>
+                                <p class="paragraf14">1€</p>
+                                <div class="wrapper15">
+                                    <span class="minus14">-</span>
+                                    <span class="broj14">00</span>
+                                    <span class="plus14">+</span>
+                                </div>
+                                <script>
+                            
+                                    const plus14=document.querySelector(".plus14"),
+                                     minus14=document.querySelector(".minus14"),
+                                     broj14=document.querySelector(".broj14");
+                                
+                                    let a14 = 0;
+                                
+                                    plus14.addEventListener("click",()=>{
+                                    a14++;
+                                    a14 = (a14 < 10) ? "0" + a14 : a14;
+                                    broj14.innerText = a14;
+                                    console.log(a14);
+                                    });
+                                
+                                    minus14.addEventListener("click",()=>{
+                                    if(a14 > 0){
+                                    a14--;  
+                                    a14 = (a14 < 10) ? "0" + a14 : a14;
+                                    broj14.innerText = a14; 
+                                    }
+                                    });          
+                                </script>
+                                    <h1 class="naslov4">PIĆA:</h1>
+                                    <div class="image-container15">
+                                        <img src="slika22.jpg" class="slika">
+                                        </div>
+                                        <p class="paragraf15">1€</p>
+                                        <div class="wrapper16">
+                                            <span class="minus15">-</span>
+                                            <span class="broj15">00</span>
+                                            <span class="plus15">+</span>
+                                        </div>
+                                        <script>
+                                    
+                                            const plus15=document.querySelector(".plus15"),
+                                             minus15=document.querySelector(".minus15"),
+                                             broj15=document.querySelector(".broj15");
+                                        
+                                            let a15 = 0;
+                                        
+                                            plus15.addEventListener("click",()=>{
+                                            a15++;
+                                            a15 = (a15 < 10) ? "0" + a15 : a15;
+                                            broj15.innerText = a15;
+                                            console.log(a15);
+                                            });
+                                        
+                                            minus15.addEventListener("click",()=>{
+                                            if(a15 > 0){
+                                            a15--;  
+                                            a15 = (a15 < 10) ? "0" + a15 : a15;
+                                            broj15.innerText = a15; 
+                                            }
+                                            });          
+                                        </script>
+                                                <div class="image-container16">
+                                                    <img src="slika23.jpg" class="slika">
+                                                    </div>
+                                                    <p class="paragraf16">1€</p>
+                                                    <div class="wrapper17">
+                                                        <span class="minus16">-</span>
+                                                        <span class="broj16">00</span>
+                                                        <span class="plus16">+</span>
+                                                    </div>
+                                                    <script>
+                                                
+                                                        const plus16=document.querySelector(".plus16"),
+                                                         minus16=document.querySelector(".minus16"),
+                                                         broj16=document.querySelector(".broj16");
+                                                    
+                                                        let a16 = 0;
+                                                    
+                                                        plus16.addEventListener("click",()=>{
+                                                        a16++;
+                                                        a16 = (a16 < 10) ? "0" + a16 : a16;
+                                                        broj16.innerText = a16;
+                                                        console.log(a16);
+                                                        });
+                                                    
+                                                        minus16.addEventListener("click",()=>{
+                                                        if(a16 > 0){
+                                                        a16--;  
+                                                        a16 = (a16 < 10) ? "0" + a16 : a16;
+                                                        broj16.innerText = a16; 
+                                                        }
+                                                        });          
+                                                    </script>
+                                                   <div class="image-container17">
+                                                   <img src="slika24.jpg" class="slika">
+                                                   </div>
+                                                   <p class="paragraf17">1€</p>
+                                                   <div class="wrapper18">
+                                                    <span class="minus17">-</span>
+                                                    <span class="broj17">00</span>
+                                                    <span class="plus17">+</span>
+                                                </div>
+                                                <script>
+                                            
+                                                    const plus17=document.querySelector(".plus17"),
+                                                     minus17=document.querySelector(".minus17"),
+                                                     broj17=document.querySelector(".broj17");
+                                                
+                                                    let a17 = 0;
+                                                
+                                                    plus17.addEventListener("click",()=>{
+                                                    a17++;
+                                                    a17 = (a17 < 10) ? "0" + a17 : a17;
+                                                    broj17.innerText = a17;
+                                                    console.log(a17);
+                                                    });
+                                                
+                                                    minus17.addEventListener("click",()=>{
+                                                    if(a17 > 0){
+                                                    a17--;  
+                                                    a17 = (a17 < 10) ? "0" + a17 : a17;
+                                                    broj17.innerText = a17; 
+                                                    }
+                                                    });          
+                                                </script>
+                                                   <div class="image-container18">
+                                                    <img src="slika25.jpg" class="slika">
+                                                    </div>
+                                                    <p class="paragraf18">2€</p>
+                                                    <div class="wrapper19">
+                                                        <span class="minus18">-</span>
+                                                        <span class="broj18">00</span>
+                                                        <span class="plus18">+</span>
+                                                    </div>
+                                                    <script>
+                                                
+                                                        const plus18=document.querySelector(".plus18"),
+                                                         minus18=document.querySelector(".minus18"),
+                                                         broj18=document.querySelector(".broj18");
+                                                    
+                                                        let a18 = 0;
+                                                    
+                                                        plus18.addEventListener("click",()=>{
+                                                        a18++;
+                                                        a18 = (a18 < 10) ? "0" + a18 : a18;
+                                                        broj18.innerText = a18;
+                                                        console.log(a18);
+                                                        });
+                                                    
+                                                        minus18.addEventListener("click",()=>{
+                                                        if(a18 > 0){
+                                                        a18--;  
+                                                        a18 = (a18 < 10) ? "0" + a18 : a18;
+                                                        broj18.innerText = a18; 
+                                                        }
+                                                        });          
+                                                    </script>
+                                                        <div class="image-container19">
+                                                            <img src="slika26.jpg" class="slika">
+                                                            </div>
+                                                            <p class="paragraf19">10€</p>
+                                                            <div class="wrapper20">
+                                                                <span class="minus19">-</span>
+                                                                <span class="broj19">00</span>
+                                                                <span class="plus19">+</span>
+                                                            </div>
+                                                            <script>
+                                                        
+                                                                const plus19=document.querySelector(".plus19"),
+                                                                 minus19=document.querySelector(".minus19"),
+                                                                 broj19=document.querySelector(".broj19");
+                                                            
+                                                                let a19 = 0;
+                                                            
+                                                                plus19.addEventListener("click",()=>{
+                                                                a19++;
+                                                                a19 = (a19 < 10) ? "0" + a19 : a19;
+                                                                broj19.innerText = a19;
+                                                                console.log(a19);
+                                                                });
+                                                            
+                                                                minus19.addEventListener("click",()=>{
+                                                                if(a19 > 0){
+                                                                a19--;  
+                                                                a19 = (a19 < 10) ? "0" + a19 : a19;
+                                                                broj19.innerText = a19; 
+                                                                }
+                                                                });          
+                                                            </script>
+</body>
+</html>

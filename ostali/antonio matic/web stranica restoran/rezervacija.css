@@ -1,0 +1,117 @@
+body{
+    background-color:#0b161a;
+}
+.navbar{
+	background:#0b161a;
+	font-family:calibri;
+	padding-right:15px;
+    padding-left:15px;
+    border:3px solid black;
+}
+.navbar a{
+	color:orange;
+    text-decoration: none;
+}
+.navbar a:hover{
+	color:black;
+}
+.navdiv{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+.logo{
+	font-size:35px;
+	font-weight:600;
+	color: #ffc000;
+	font-family:open;
+}	
+.aloo{
+	list-style:none;
+	display:inline-block;
+	color: #ffc000;
+	font-size:18px;
+	font-weight:bold;
+	margin-right:25px;
+    margin-top:-30px;
+}
+.tipke{
+	background-color:#0b161a;
+	margin-left:10px;
+	border-radius:10px;
+	padding:1px;
+	width:90px;
+	font-weight:bold;
+	font-size:15px;
+	cursor:pointer;
+	color:#ffc000;
+}
+.wrapper{
+    width:360px;
+    padding:2rem 1rem;
+    margin:50px auto;
+    background-color:#fff;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 20px 35px rgba(0,0,0,0.1);
+}
+.h1{
+    font-size:2rem;
+    color:#07001f;
+    margin-bottom:1.2rem;
+}
+form input{
+    width:92%;
+    outline:none;
+    border:1px solid #fff;
+    padding:12px 20px;
+    margin-bottom:10px;
+    border-radius:20px;
+    background:#e4e4e4;
+}
+.button{
+    font-size:1rem;
+    margin-top:1.8rem;
+    padding:10px 0;
+    border-radius:20px;
+    outline:none;
+    border:none;
+    width:90%;
+    color:#fff;
+    cursor:pointer;
+    background:#ffc000;
+}
+.button:hover{
+    cursor:pointer;
+	background:#ffc000;
+	box-shadow: 0 0 5px #ffc000,
+	            0 0 20px #ffc000,
+				0 0 60px #ffc000;
+}
+.select-container{
+    display:flex;
+    justify-content:center;
+    position:relative;
+}
+.select-box{
+    border-radius:20px;
+    appearance:none;
+    padding:5px;
+    width:50%;
+    color:white;
+    background-color:#ffc000;
+}
+.select-container2{
+    margin-top:10px;
+    display:flex;
+    justify-content:center;
+    position:relative;
+}
+.select-box2{
+    border-radius:20px;
+    appearance:none;
+    padding:5px;
+    width:50%;
+    color:white;
+    background-color:#ffc000;
+}

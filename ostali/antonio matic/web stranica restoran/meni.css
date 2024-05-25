@@ -1,0 +1,270 @@
+body{
+    background-color:#0b161a;
+}
+.navbar{
+	background:#0b161a;
+	font-family:calibri;
+	padding-right:15px;
+    padding-left:15px;
+    border:3px solid black;
+}
+.navbar a{
+	color:orange;
+    text-decoration: none;
+}
+.navbar a:hover{
+	color:black;
+}
+.navdiv{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+.logo{
+	font-size:35px;
+	font-weight:600;
+	color: #ffc000;
+	font-family:open;
+}	
+.aloo{
+	list-style:none;
+	display:inline-block;
+	color: #ffc000;
+	font-size:18px;
+	font-weight:bold;
+	margin-right:25px;
+    margin-top:-30px;
+}
+.tipke{
+	background-color:#0b161a;
+	margin-left:10px;
+	border-radius:10px;
+	padding:1px;
+	width:90px;
+	font-weight:bold;
+	font-size:15px;
+	cursor:pointer;
+	color:#ffc000;
+}
+.slika{
+	width:200px;
+	height:100px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.image-container{
+	padding:10px;
+	width:450px;
+	display:flex;
+	align-items:top;
+	justify-content:left;
+	margin-left:400px;
+	background-color:white;
+	border-radius:10px;
+	height:100px;
+	margin-top:50px;
+	cursor: pointer;
+}
+.paragraf{
+	margin-left:685px;
+	margin-top:-85px;
+	font-size:50px;
+}
+.image-container2{
+	padding:10px;
+	width:450px;
+	display:flex;
+	align-items:top;
+	justify-content:left;
+	margin-left:400px;
+	background-color:white;
+	border-radius:10px;
+	height:100px;
+	margin-top:50px;
+	cursor: pointer;
+}
+.paragraf2{
+	margin-left:675px;
+	margin-top:-85px;
+	font-size:50px;
+}
+.image-container3{
+	padding:10px;
+	width:450px;
+	display:flex;
+	align-items:top;
+	justify-content:left;
+	margin-left:400px;
+	background-color:white;
+	border-radius:10px;
+	height:100px;
+	margin-top:50px;
+	cursor: pointer;
+}
+.paragraf3{
+	margin-left:635px;
+	margin-top:-90px;
+	font-size:50px;
+}
+.image-container4{
+	padding:10px;
+	width:450px;
+	display:flex;
+	align-items:top;
+	justify-content:left;
+	margin-left:400px;
+	background-color:white;
+	border-radius:10px;
+	height:100px;
+	margin-top:65px;
+	cursor: pointer;
+}
+.paragraf4{
+	margin-left:670px;
+	margin-top:-85px;
+	font-size:50px;
+}
+.image-container5{
+	padding:10px;
+	width:450px;
+	display:flex;
+	align-items:top;
+	justify-content:left;
+	margin-left:1100px;
+	background-color:white;
+	border-radius:10px;
+	height:100px;
+	margin-top:-582px;
+	cursor: pointer;
+}
+.paragraf5{
+	margin-left:1375px;
+	margin-top:-85px;
+	font-size:50px;
+}
+.image-container6{
+	padding:10px;
+	width:450px;
+	display:flex;
+	align-items:top;
+	justify-content:left;
+	margin-left:1100px;
+	background-color:white;
+	border-radius:10px;
+	height:100px;
+	margin-top:0px;
+	cursor: pointer;
+}
+.paragraf6{
+	margin-left:1350px;
+	margin-top:-90px;
+	font-size:50px;
+}
+.image-container7{
+	padding:10px;
+	width:450px;
+	display:flex;
+	align-items:top;
+	justify-content:left;
+	margin-left:1100px;
+	background-color:white;
+	border-radius:10px;
+	height:100px;
+	margin-top:55px;
+	cursor: pointer;
+}
+.paragraf7{
+	margin-left:1315px;
+	margin-top:-85px;
+	font-size:45px;
+}
+.image-container8{
+	padding:10px;
+	width:450px;
+	display:flex;
+	align-items:top;
+	justify-content:left;
+	margin-left:1100px;
+	background-color:white;
+	border-radius:10px;
+	height:100px;
+	margin-top:55px;
+	cursor: pointer;
+}
+.paragraf8{
+	margin-left:1360px;
+	margin-top:-85px;
+	font-size:45px;
+}
+.image-container9{
+	padding:10px;
+	width:450px;
+	display:flex;
+	align-items:top;
+	justify-content:left;
+	margin-left:400px;
+	background-color:white;
+	border-radius:10px;
+	height:100px;
+	margin-top:75px;
+	cursor: pointer;
+}
+.paragraf9{
+	margin-left:610px;
+	margin-top:-75px;
+	font-size:30px;
+}
+.image-container10{
+	padding:10px;
+	width:450px;
+	display:flex;
+	align-items:top;
+	justify-content:left;
+	margin-left:1100px;
+	background-color:white;
+	border-radius:10px;
+	height:100px;
+	margin-top:-109px;
+	cursor: pointer;
+}
+.paragraf10{
+	margin-left:1335px;
+	margin-top:-80px;
+	font-size:40px;
+}
+.image-container11{
+	padding:10px;
+	width:450px;
+	display:flex;
+	align-items:top;
+	justify-content:left;
+	margin-left:400px;
+	background-color:white;
+	border-radius:10px;
+	height:100px;
+	margin-top:65px;
+	cursor: pointer;
+}
+.paragraf11{
+	margin-left:630px;
+	margin-top:-70px;
+	font-size:25px;
+}
+.image-container12{
+	padding:10px;
+	width:450px;
+	display:flex;
+	align-items:top;
+	justify-content:left;
+	margin-left:1100px;
+	background-color:white;
+	border-radius:10px;
+	height:100px;
+	margin-top:-103px;
+	cursor: pointer;
+}
+.paragraf12{
+	margin-left:1309px;
+	margin-top:-75px;
+	font-size:30px;
+}
